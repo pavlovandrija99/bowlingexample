@@ -9,7 +9,7 @@ namespace BowlingExampleTemplate.Bowling
     public class BowlingLogic
     {
 
-		int[] throws = new int[21];
+		readonly int[] throws = new int[21];
 		int currentThrow;
 
 		public void ThrowBall(int pins)
